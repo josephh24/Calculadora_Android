@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/negro"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/resulado1"
+        android:hint="0"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:maxLines="3"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/resulado2"
+        android:hint="0"
+        android:textStyle="normal"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:maxLines="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/parentesis_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="("
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/signo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+/-"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/parentesis_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=")"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/flecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="◄"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/siete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/ocho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/nueve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/cuatro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/cinco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/seis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/multiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/dos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/tres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/resta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/cero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/punto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/igual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_igual"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/suma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textColor="#00ffbc"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:background="@drawable/f_numeros"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="Hecho por: Jose Pablo Sanchez Guillen"
+        android:textColor="@color/blanco"/>
+
+</LinearLayout>
